@@ -8,18 +8,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_messaging: ^14.7.10
   google_maps_flutter: ^2.5.0
-  geolocator: ^14.0.1
-  connectivity_plus: ^6.1.4
-  http: ^1.1.2
+  geolocator: ^10.1.0
+  connectivity_plus: ^5.0.2
+  http: ^0.13.6
   provider: ^6.1.1
   image_picker: ^1.0.7
-  flutter_launcher_icons: ^0.14.3
+  flutter_launcher_icons: ^0.13.1
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
 
-  firebase_messaging: any
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  flutter_lints: ^3.0.1
 
 flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/
