@@ -1,0 +1,25 @@
+name: alerta_fogo_new
+description: Aplicativo de prevenção e resposta a incêndios.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_maps_flutter: ^2.5.0
+  geolocator: ^14.0.1
+  connectivity_plus: ^6.1.4
+  http: ^1.1.2
+  provider: ^6.1.1
+  image_picker: ^1.0.7
+  flutter_launcher_icons: ^0.14.3
+
+  firebase_messaging: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
